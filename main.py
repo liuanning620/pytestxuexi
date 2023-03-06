@@ -17,7 +17,7 @@ print(5)
 print("hot-fix分支上添加内容")
 print("master分支上添加内容")
 print("推送，且ssh")
-print("远程修改，拉取")
+print("远程修改，拉取@")
 # 按间距中的绿色按钮以运行脚本。
 # if __name__ == '__main__':
 #     print_hi('PyCharm')
