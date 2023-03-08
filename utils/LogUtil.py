@@ -61,7 +61,7 @@ class Logger:
 # 1.初始化参数数据，日志文件名称，日志文件级别
 # 日志文件名称 = logs目录+当前时间+扩展名
 # 获取logs目录D:\WorkSoftware\PycharmProjects\pytestxuexi\logs
-log_path = Conf.get_config_log_path()
+log_path = Conf.get_log_path()
 # 获取当期前时间2023-03-08
 current_time = datetime.datetime.now().strftime("%Y-%m-%d")
 # 获取日志扩展名.log

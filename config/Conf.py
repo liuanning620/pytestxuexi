@@ -12,12 +12,14 @@ current = os.path.abspath(__file__)
 BASE_DIR = os.path.dirname(os.path.dirname(current))
 # 定义config目录的路径
 _config_path = BASE_DIR + os.sep + "config"
+# 定义data目录的路径
+_data_path = BASE_DIR + os.sep + "data"
 # 定义conf.yml文件的路径
 _config_yaml_file = _config_path + os.sep + "conf.yml"
 # 定义输出log文件目录的路径
-_config_log_path = BASE_DIR + os.sep + "logs"
+_log_path = BASE_DIR + os.sep + "logs"
 # 定义db_conf.yml路径
-_config_db_yaml_file = _config_path + os.sep + "conf_db.yml"
+_db_yaml_file = _config_path + os.sep + "conf_db.yml"
 # 获取配置文件路径
 def get_config_path():
     return _config_path
@@ -27,12 +29,16 @@ def get_config_yaml_file():
     return _config_yaml_file
 
 # 获取log文件的路径
-def get_config_log_path():
-    return _config_log_path
+def get_log_path():
+    return _log_path
+
+# 获取data的路径
+def get_data_path():
+    return _data_path
 
 # 获取log文件的路径
-def get_config_db_file():
-    return _config_db_yaml_file
+def get_db_file():
+    return _db_yaml_file
 
 # 读取配置文件
 # 1.创建类
@@ -41,7 +47,7 @@ class ConfigYaml:
     def __init__(self):
         # 读取conf.yml文件
         self.config = YamlReader(get_config_yaml_file()).data()
-        self.config_db = YamlReader(get_config_db_file()).data()
+        self.config_db = YamlReader(get_db_file()).data()
         # 定义方法获取需要的信息
     def get_conf_url(self):
         return self.config["BASE"]["test"]["url"]
