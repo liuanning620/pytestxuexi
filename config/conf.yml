@@ -1,0 +1,10 @@
+
+BASE:
+  # log等级
+  log_level: "debug"
+  # log文件扩展名
+  log_extension: ".log"
+
+  # 环境和域名
+  test:
+    url: "https://www.baidu.com/"

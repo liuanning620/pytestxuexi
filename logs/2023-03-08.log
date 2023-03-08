@@ -1,0 +1,79 @@
+2023-03-08 09:42:42,092--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--this is debug info
+2023-03-08 09:43:15,092--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--this is debug info
+2023-03-08 09:44:02,639--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--this is debug info
+2023-03-08 10:02:59,515--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:04:10,873--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:05:28,855--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:05:35,345--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:06:26,514--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:06:31,045--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:06:35,927--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:06:40,036--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:08:22,467--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:09:58,373--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:02,781--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:07,913--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:11,483--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:14,765--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:18,201--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:22,067--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:23,493--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:27,621--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:29,983--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:32,036--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:34,312--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:41,765--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:10:46,639--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:12:08,938--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:12:13,068--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:12:17,983--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:12:21,745--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:12:24,077--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 10:15:06,076--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 12:46:55,646--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 13:22:14,417--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--发送get请求
+2023-03-08 13:23:56,626--RequestLog--DEBUG--发送get请求
+2023-03-08 13:38:47,185--RequestLog--DEBUG--发送get请求
+2023-03-08 13:38:57,873--RequestLog--DEBUG--发送get请求
+2023-03-08 13:38:59,498--AssertUitl--ERROR--code error,code is: 201, 期望expected_code is: 200
+2023-03-08 13:39:01,625--RequestLog--DEBUG--发送get请求
+2023-03-08 13:39:04,252--RequestLog--DEBUG--发送get请求
+2023-03-08 13:39:05,228--AssertUitl--ERROR--code error,code is: 201, 期望expected_code is: 200
+2023-03-08 13:39:07,237--RequestLog--DEBUG--发送get请求
+2023-03-08 13:39:08,195--AssertUitl--ERROR--code error,code is: 201, 期望expected_code is: 200
+2023-03-08 13:39:41,741--RequestLog--DEBUG--发送get请求
+2023-03-08 13:52:16,866--RequestLog--DEBUG--发送get请求
+2023-03-08 13:52:17,820--AssertUitl--ERROR--error: expected_body not in body, body is: {"userId": 1, "title": "\u6807\u9898", "body": "\u8fd9\u662f\u4e00\u7bc7\u6587\u7ae0\u7684\u5185\u5bb9", "id": 101}, expected_body is: 'id':
+2023-03-08 13:52:19,957--RequestLog--DEBUG--发送get请求
+2023-03-08 13:52:21,627--AssertUitl--ERROR--error: expected_body not in body, body is: {"userId": 1, "title": "\u6807\u9898", "body": "\u8fd9\u662f\u4e00\u7bc7\u6587\u7ae0\u7684\u5185\u5bb9", "id": 101}, expected_body is: 'id':
+2023-03-08 13:52:23,642--RequestLog--DEBUG--发送get请求
+2023-03-08 13:52:24,233--AssertUitl--ERROR--error: expected_body not in body, body is: {"userId": 1, "title": "\u6807\u9898", "body": "\u8fd9\u662f\u4e00\u7bc7\u6587\u7ae0\u7684\u5185\u5bb9", "id": 101}, expected_body is: 'id':
+2023-03-08 13:52:26,252--RequestLog--DEBUG--发送get请求
+2023-03-08 13:52:26,848--AssertUitl--ERROR--error: expected_body not in body, body is: {"userId": 1, "title": "\u6807\u9898", "body": "\u8fd9\u662f\u4e00\u7bc7\u6587\u7ae0\u7684\u5185\u5bb9", "id": 101}, expected_body is: 'id':
+2023-03-08 13:54:12,928--RequestLog--DEBUG--发送get请求
+2023-03-08 13:54:14,894--AssertUitl--ERROR--error: expected_body not in body, body is: {"userId": 1, "title": "\u6807\u9898", "body": "\u8fd9\u662f\u4e00\u7bc7\u6587\u7ae0\u7684\u5185\u5bb9", "id": 101}, expected_body is: {'userId': 1, 'title': '标题', 'body': '这是一篇文章的内容', 'id': 101}
+2023-03-08 13:54:17,016--RequestLog--DEBUG--发送get请求
+2023-03-08 13:54:17,949--AssertUitl--ERROR--error: expected_body not in body, body is: {"userId": 1, "title": "\u6807\u9898", "body": "\u8fd9\u662f\u4e00\u7bc7\u6587\u7ae0\u7684\u5185\u5bb9", "id": 101}, expected_body is: {'userId': 1, 'title': '标题', 'body': '这是一篇文章的内容', 'id': 101}
+2023-03-08 13:54:19,961--RequestLog--DEBUG--发送get请求
+2023-03-08 13:54:20,538--AssertUitl--ERROR--error: expected_body not in body, body is: {"userId": 1, "title": "\u6807\u9898", "body": "\u8fd9\u662f\u4e00\u7bc7\u6587\u7ae0\u7684\u5185\u5bb9", "id": 101}, expected_body is: {'userId': 1, 'title': '标题', 'body': '这是一篇文章的内容', 'id': 101}
+2023-03-08 13:54:22,550--RequestLog--DEBUG--发送get请求
+2023-03-08 13:54:23,134--AssertUitl--ERROR--error: expected_body not in body, body is: {"userId": 1, "title": "\u6807\u9898", "body": "\u8fd9\u662f\u4e00\u7bc7\u6587\u7ae0\u7684\u5185\u5bb9", "id": 101}, expected_body is: {'userId': 1, 'title': '标题', 'body': '这是一篇文章的内容', 'id': 101}
+2023-03-08 13:55:19,193--RequestLog--DEBUG--发送get请求
+2023-03-08 16:45:34,988--RequestLog--DEBUG--发送get请求
+2023-03-08 16:45:36,949--AssertUitl--ERROR--error: expected_body not in body, body is: {"userId": 3, "title": "title3", "body": "this is a writer 3", "id": 101}, expected_body is: this is active writer
+2023-03-08 16:46:24,792--RequestLog--DEBUG--发送get请求
+2023-03-08 16:46:37,259--RequestLog--DEBUG--发送get请求
+2023-03-08 16:47:27,213--RequestLog--DEBUG--发送get请求
+2023-03-08 16:47:36,527--RequestLog--DEBUG--发送get请求
+2023-03-08 16:47:37,460--RequestLog--DEBUG--发送get请求
+2023-03-08 16:48:36,754--RequestLog--DEBUG--发送get请求
+2023-03-08 16:48:43,549--RequestLog--DEBUG--发送get请求
+2023-03-08 16:48:48,622--RequestLog--DEBUG--发送get请求
+2023-03-08 16:48:49,560--RequestLog--DEBUG--发送get请求
+2023-03-08 16:50:43,824--RequestLog--DEBUG--发送get请求
+2023-03-08 16:50:44,780--RequestLog--DEBUG--发送get请求
+2023-03-08 16:52:10,099--RequestLog--DEBUG--发送get请求
+2023-03-08 16:58:00,696--RequestLog--DEBUG--发送get请求
+2023-03-08 16:58:19,342--RequestLog--DEBUG--发送get请求
+2023-03-08 16:58:20,324--RequestLog--DEBUG--发送get请求
+2023-03-08 16:58:23,205--RequestLog--DEBUG--发送get请求
