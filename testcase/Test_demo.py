@@ -10,7 +10,7 @@ from utils.RequestsUtil import Request
 from utils.AssertUtil import AssertUtil
 from common.Base import init_db
 
-# {'code': 201, 'msg': {'userId': 1, 'title3': '标题', 'body': 'this is a writer 3', 'id': 101}}
+# {'code': 201, 'msg': {'userId': 2, 'title': 'title2', 'body': 'this is a writer 2', 'id': 101}}
 
 
 def test_add_id():
@@ -22,6 +22,7 @@ def test_add_id():
     }
     req = Request()
     res = req.post(url=url,json=data)
+    print(res)
     code = res["code"]
     AssertUtil().assert_code(code, 201)
     body = res["msg"]
