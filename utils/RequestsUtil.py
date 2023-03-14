@@ -18,10 +18,10 @@ class Request:
         global r
         if method == "get":
             self.log.debug("发送get请求")
-            r = requests.get(url=url, data=data, json=json, cookies=None, headers=headers)
+            r = requests.get(url=url, data=data, json=json, headers=headers, cookies=None)
         elif method == "post":
-            self.log.debug("发送get请求")
-            r = requests.post(url=url, data=data, json=json, cookies=None, headers=headers)
+            self.log.debug("发送post请求")
+            r = requests.post(url=url, data=data, json=json, headers=headers, cookies=None)
 
         code = r.status_code
         try:
