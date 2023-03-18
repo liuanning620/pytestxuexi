@@ -110,18 +110,17 @@ class TestExcelCase:
             # print("前置条件：%s" % precondition)
             res_precoondition = self.run_case_precondition(precondition)
             header, cookie = self.get_correlation(headers, cookies, res_precoondition)
-            sleep(5)
             # 如果headers存在，就转换成json格式
             headers = Base.json_data(header)
             # 如果cookies存在，就转换成json格式
             cookies = Base.json_data(cookie)
         # 调用公共方法：请求
-        # res = self.case_public_func(url=case_url, method=case_method, params=case_params, headers=headers,
-        #                             cookies=cookies)
-        # print("需要运行的用例执行结果：%s"%res)
-        # assert_util = AssertUtil()
-        # assert_util.assert_code(int(res['code']), int(case_code))
-        # sleep(5)
+        res = self.case_public_func(url=case_url, method=case_method, params=case_params, headers=headers,
+                                    cookies=cookies)
+        print("需要运行的用例执行结果：%s"%res)
+        assert_util = AssertUtil()
+        assert_util.assert_code(int(res['code']), int(case_code))
+        assert_util.assert_body(str(res), str(case_expect_result))
 
 
 # TestExcelCase().test_case_run()
@@ -141,12 +140,12 @@ class TestExcelCase:
         return headers_param, cookies_param
 
 if __name__ == '__main__':
-    # pytest.main(["-s", "test_excel_case.py"])
+    pytest.main(["-s", "test_excel_case.py"])
 
-    import re
-    str1 = '{"Authorization":"JWT${token}$"}'
-    pattern = re.compile('\${(.*)}\$')
-    res = pattern.findall(str1)
-    token = "123"
-    a = re.sub(pattern,token,str1)
-    print(a)
+    # import re
+    # str1 = '{"Authorization":"JWT${token}$"}'
+    # pattern = re.compile('\${(.*)}\$')
+    # res = pattern.findall(str1)
+    # token = "123"
+    # a = re.sub(pattern,token,str1)
+    # print(a)

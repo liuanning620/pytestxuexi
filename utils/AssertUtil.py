@@ -30,7 +30,7 @@ class AssertUtil:
     # code是否相同
     def assert_body(self,body,expected_body):
         try:
-            assert int(body) == int(expected_body)
+            assert str(body) == str(expected_body)
             return True
         except:
             self.log.error("error: body and expected_body are not the same, body is: %s, expected_body is: %s"%(body,expected_body))

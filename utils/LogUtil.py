@@ -62,6 +62,8 @@ class Logger:
 # 日志文件名称 = logs目录+当前时间+扩展名
 # 获取logs目录D:\WorkSoftware\PycharmProjects\pytestxuexi\logs
 log_path = Conf.get_log_path()
+if not os.path.exists(log_path):
+    os.makedirs(log_path)
 # 获取当期前时间2023-03-08
 current_time = datetime.datetime.now().strftime("%Y-%m-%d")
 # 获取日志扩展名.log
@@ -77,5 +79,5 @@ def my_log(log_name=__file__):
     return Logger(log_file=log_file, log_name=log_name, log_level=log_level).logger
 
 #
-# if __name__ == "__main__":
-#     my_log().debug("this is debug info")
+if __name__ == "__main__":
+    my_log().debug("this is debug info")

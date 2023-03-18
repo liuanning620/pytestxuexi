@@ -1,0 +1,35 @@
+2023-03-18 21:58:32,194--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--DEBUG--this is debug info
+2023-03-18 21:58:57,961--RequestLog--DEBUG--发送post请求
+2023-03-18 21:59:34,148--RequestLog--DEBUG--发送post请求
+2023-03-18 21:59:40,123--RequestLog--DEBUG--发送post请求
+2023-03-18 22:00:25,601--RequestLog--DEBUG--发送post请求
+2023-03-18 22:00:31,597--RequestLog--DEBUG--发送post请求
+2023-03-18 22:00:37,576--RequestLog--DEBUG--发送post请求
+2023-03-18 22:03:17,445--RequestLog--DEBUG--发送post请求
+2023-03-18 22:03:18,196--RequestLog--DEBUG--发送post请求
+2023-03-18 22:03:26,232--RequestLog--DEBUG--发送post请求
+2023-03-18 22:03:45,104--RequestLog--DEBUG--发送post请求
+2023-03-18 22:03:51,781--RequestLog--DEBUG--发送post请求
+2023-03-18 22:03:57,764--RequestLog--DEBUG--发送post请求
+2023-03-18 22:06:55,061--RequestLog--DEBUG--发送post请求
+2023-03-18 22:06:55,827--RequestLog--DEBUG--发送post请求
+2023-03-18 22:07:01,798--RequestLog--DEBUG--发送post请求
+2023-03-18 22:07:02,765--AssertUitl--ERROR--error: body and expected_body are not the same, body is: {'userId': 3, 'title': 'title3', 'body': 'this is a writer 3', 'id': 101}, expected_body is: {'code': 201, 'msg': {'userId': 3, 'title': 'title3', 'body': 'this is a writer 3', 'id': 101}}
+2023-03-18 22:13:03,437--RequestLog--DEBUG--发送post请求
+2023-03-18 22:13:05,860--AssertUitl--ERROR--error: body and expected_body are not the same, body is: {'userId': 2, 'title': 'title2', 'body': 'this is a writer 2', 'id': 101}, expected_body is: {'code': 201, 'msg': {'userId': 2, 'title': 'title2', 'body': 'this is a writer 2', 'id': 101}}
+2023-03-18 22:13:05,985--RequestLog--DEBUG--发送post请求
+2023-03-18 22:13:12,956--RequestLog--DEBUG--发送post请求
+2023-03-18 22:13:13,924--AssertUitl--ERROR--error: body and expected_body are not the same, body is: {'userId': 3, 'title': 'title3', 'body': 'this is a writer 3', 'id': 101}, expected_body is: {'code': 201, 'msg': {'userId': 3, 'title': 'title3', 'body': 'this is a writer 3', 'id': 101}}
+2023-03-18 22:14:06,826--RequestLog--DEBUG--发送post请求
+2023-03-18 22:14:08,605--RequestLog--DEBUG--发送post请求
+2023-03-18 22:14:21,507--RequestLog--DEBUG--发送post请求
+2023-03-18 22:14:29,527--RequestLog--DEBUG--发送post请求
+2023-03-18 22:14:44,938--RequestLog--DEBUG--发送post请求
+2023-03-18 22:14:52,436--RequestLog--DEBUG--发送post请求
+2023-03-18 22:14:58,445--RequestLog--DEBUG--发送post请求
+2023-03-18 22:15:15,287--RequestLog--DEBUG--发送post请求
+2023-03-18 22:15:16,264--RequestLog--DEBUG--发送post请求
+2023-03-18 22:16:04,158--RequestLog--DEBUG--发送post请求
+2023-03-18 22:16:09,730--RequestLog--DEBUG--发送post请求
+2023-03-18 22:16:12,167--RequestLog--DEBUG--发送post请求
+2023-03-18 22:16:14,142--RequestLog--DEBUG--发送post请求
