@@ -7,7 +7,7 @@ BASE:
 
   # 环境和域名
   test:
-    url: "http://jsonplaceholder.typicode.com/"
+    url: "http://127.0.0.1:5000"
 #    excel测试用例文件的路径
     excel_case_file: "api.xlsx"
     excel_case_sheet: "Sheet1"

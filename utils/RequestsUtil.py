@@ -22,16 +22,10 @@ class Request:
         elif method == "post":
             self.log.debug("发送post请求")
             r = requests.post(url=url, data=data, json=json, headers=headers, cookies=None)
-
-        code = r.status_code
         try:
-            body = r.json()
+            res = r.json()
         except Exception as e:
-            body = r.text
-
-        res ={}
-        res["code"] = code
-        res["msg"] = body
+            res = r.text
         return res
 
     # 重构get方法

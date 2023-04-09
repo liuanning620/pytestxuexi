@@ -1,0 +1,2 @@
+DEBUG    RequestLog:RequestsUtil.py:23 发送post请求
+ERROR    AssertUitl:AssertUtil.py:47 error: expected_body not in body, body is: "{'code': 200, 'data': {'phone': '13021111161', 'token': 'aaa111', 'userid': 9, 'username': 'alan1'}, 'msg': '\u767b\u5f55\u6210\u529f'}", expected_body is: 登录成功

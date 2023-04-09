@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c14cc9efefda903e",
+  "name" : "用例id:id-002;用例名称:登录alan2;",
+  "time" : {
+    "start" : 1680575509950,
+    "stop" : 1680575509967,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d32c30a65115372",
+  "name" : "用例id:id-001;用例名称:登录alan1;",
+  "time" : {
+    "start" : 1680575509933,
+    "stop" : 1680575509947,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

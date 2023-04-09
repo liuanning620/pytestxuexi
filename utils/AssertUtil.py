@@ -22,26 +22,29 @@ class AssertUtil:
     def assert_code(self,code,expected_code):
         try:
             assert int(code) == int(expected_code)
+            self.log.error("status_code verification passed")
             return True
         except:
-            self.log.error("code error,code is: %s, 期望expected_code is: %s"%(code,expected_code))
+            self.log.error("code verification failed,code is: %s, expected_code is: %s"%(code,expected_code))
             raise
 
     # code是否相同
     def assert_body(self,body,expected_body):
         try:
             assert str(body) == str(expected_body)
+            self.log.error("body verification passed")
             return True
         except:
-            self.log.error("error: body and expected_body are not the same, body is: %s, expected_body is: %s"%(body,expected_body))
+            self.log.error("error: body verification failed , body is: %s, expected_body is: %s"%(body,expected_body))
             raise
 
     # body是否包含期望
     def assert_in_body(self,body,expected_body):
 
         try:
-            body = json.dumps(body)
+            # body = json.dumps(body)
             assert expected_body in body
+            self.log.error("in body verification passed")
             return True
         except:
             self.log.error("error: expected_body not in body, body is: %s, expected_body is: %s"%(body,expected_body))

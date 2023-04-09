@@ -12,8 +12,9 @@
 # 测试用例方法，参数化
 import json
 import os
-from time import sleep
+import allure
 
+from config import Conf
 import pytest
 from config.Conf import ConfigYaml, get_data_path
 from common.ExcelData import CaseExcelRunData
@@ -46,7 +47,7 @@ class TestExcelCase:
         # 接口请求，工具类
         req = Request()
         # params如果有内容，params转成json
-        if len(str(params).strip()) is not 0:
+        if len(str(params).strip()) != 0:
             params = json.loads(params)
         else:
             params = params
@@ -62,8 +63,9 @@ class TestExcelCase:
 
     # 执行前置用例方法,获得返回结果
     def run_case_precondition(self, precondition_case):
-        print("调用执行前置用例方法run_case_precondition()")
+        # print("调用执行前置用例方法run_case_precondition()")
         case_url = ConfigYaml().get_conf_host_url() + precondition_case[case_key.case_url]
+        case_id = precondition_case[case_key.case_id]
         case_method = precondition_case[case_key.case_method]
         case_params = precondition_case[case_key.case_params]
         case_headers = precondition_case[case_key.case_headers]
@@ -76,13 +78,26 @@ class TestExcelCase:
         # 调用公共方法：请求
         res = self.case_public_func(url=case_url, method=case_method, params=case_params, headers=headers,
                                     cookies=cookies)
-        print("前置用例执行结果：%s"%res)
+        print("前置用例{}执行结果：{}".format(case_id,res))
         return res
+
+    # 验证是否有关联，有执行前置用例，获取结果，结果替换
+    def get_correlation(self, headers, cookies, res_precoondition):
+        headers_param, cookies_param = Base.params_find_pattern(headers, cookies)
+        if len(headers_param):
+            headers_data = res_precoondition["body"][headers[0]]
+            headers_param = Base.reslut_re_replace(headers,headers_data)
+            print("如果headers中存在${,获取，替换侯的内容")
+        if len(cookies_param):
+            cookies_data = res_precoondition["body"][cookies_param[0]]
+            cookies_param = Base.reslut_re_replace(cookies_param,cookies_data)
+            print("如果cookies中存在${,获取，替换侯的内容")
+        return headers_param, cookies_param
 
     # 初始化信息，url，data
     @pytest.mark.parametrize("case", case_run_list)
     def test_case_run(self, case):
-        print("调用方法test_case_run(),parametrize获取所有需要运行的用例")
+        # print("调用方法test_case_run(),parametrize获取所有需要运行的用例")
         # case_key = ExcelConf.ExcelColumnConfig()
         case_url = ConfigYaml().get_conf_host_url() + case[case_key.case_url]
         case_id = case[case_key.case_id]
@@ -106,7 +121,7 @@ class TestExcelCase:
         if case_precondition:
             # 获取前置测试用例
             precondition = case_run_data.get_case_precondition(case_precondition)
-            print("存在前置条件，获取前置用例的case所有信息，前置用例执行结果如下")
+            # print("存在前置条件，获取前置用例的case所有信息，前置用例执行结果如下")
             # print("前置条件：%s" % precondition)
             res_precoondition = self.run_case_precondition(precondition)
             header, cookie = self.get_correlation(headers, cookies, res_precoondition)
@@ -117,35 +132,24 @@ class TestExcelCase:
         # 调用公共方法：请求
         res = self.case_public_func(url=case_url, method=case_method, params=case_params, headers=headers,
                                     cookies=cookies)
-        print("需要运行的用例执行结果：%s"%res)
+        print("当前用例{}执行结果：{}".format(case_id, res))
+
+        # 因为上面 @pytest.mark.parametrize(t),所以动态获取allure.dynamic.feature()
+        allure.dynamic.feature(case_sheet_name)
+        allure.dynamic.story(case_model)
+        allure.dynamic.title("用例id:{};用例名称:{};".format(case_id, case_name))
+        allure.dynamic.description("请求方法:{}; 请求url:{}; 预期结果：{};".format(case_method, case_url,case_expect_result))
+
+
         assert_util = AssertUtil()
         assert_util.assert_code(int(res['code']), int(case_code))
-        assert_util.assert_body(str(res), str(case_expect_result))
-
-
-# TestExcelCase().test_case_run()
-
-
-    # 验证是否有关联，有执行前置用例，获取结果，结果替换
-    def get_correlation(self, headers, cookies, res_precoondition):
-        headers_param, cookies_param = Base.params_find_pattern(headers, cookies)
-        if len(headers_param):
-            headers_data = res_precoondition["body"][headers[0]]
-            headers_param = Base.reslut_re_replace(headers,headers_data)
-            print("如果headers中存在${,获取，替换侯的内容")
-        if len(cookies_param):
-            cookies_data = res_precoondition["body"][cookies_param[0]]
-            cookies_param = Base.reslut_re_replace(cookies_param,cookies_data)
-            print("如果cookies中存在${,获取，替换侯的内容")
-        return headers_param, cookies_param
+        assert_util.assert_in_body(str(res), str(case_expect_result))
+        # Base.assert_db_verify("db_1", res["msg"],case_db_verify)
 
 if __name__ == '__main__':
-    pytest.main(["-s", "test_excel_case.py"])
-
-    # import re
-    # str1 = '{"Authorization":"JWT${token}$"}'
-    # pattern = re.compile('\${(.*)}\$')
-    # res = pattern.findall(str1)
-    # token = "123"
-    # a = re.sub(pattern,token,str1)
-    # print(a)
+    report_result_path = Conf.get_report_path() + os.sep + "result"
+    report_html_path = Conf.get_report_path() + os.sep + "html"
+    # # 基于根目录pytest.ini 中addopts = -s --alluredir ./report/result
+    # pytest.main(["-s", "test_excel_case.py"])
+    pytest.main(["-s","test_excel_case.py", "--alluredir", report_result_path])
+    Base.allure_report_html(report_result_path, report_html_path)

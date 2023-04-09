@@ -1,0 +1,142 @@
+2023-04-04 08:33:48,042--RequestLog--DEBUG--发送post请求
+2023-04-04 08:33:48,069--RequestLog--DEBUG--发送post请求
+2023-04-04 08:33:48,077--RequestLog--DEBUG--发送post请求
+2023-04-04 08:39:41,773--RequestLog--DEBUG--发送post请求
+2023-04-04 08:39:41,791--RequestLog--DEBUG--发送post请求
+2023-04-04 08:39:41,797--RequestLog--DEBUG--发送post请求
+2023-04-04 08:42:07,233--RequestLog--DEBUG--发送post请求
+2023-04-04 08:42:07,252--RequestLog--DEBUG--发送post请求
+2023-04-04 08:42:07,258--RequestLog--DEBUG--发送post请求
+2023-04-04 08:43:26,241--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 08:44:40,042--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 08:45:19,006--RequestLog--DEBUG--发送post请求
+2023-04-04 08:45:19,025--RequestLog--DEBUG--发送post请求
+2023-04-04 08:45:19,031--RequestLog--DEBUG--发送post请求
+2023-04-04 08:46:22,757--RequestLog--DEBUG--发送post请求
+2023-04-04 08:46:22,777--RequestLog--DEBUG--发送post请求
+2023-04-04 08:46:22,783--RequestLog--DEBUG--发送post请求
+2023-04-04 09:07:25,857--RequestLog--DEBUG--发送post请求
+2023-04-04 09:07:25,876--RequestLog--DEBUG--发送post请求
+2023-04-04 09:07:25,881--RequestLog--DEBUG--发送post请求
+2023-04-04 09:09:31,136--RequestLog--DEBUG--发送post请求
+2023-04-04 09:09:31,152--RequestLog--DEBUG--发送post请求
+2023-04-04 09:09:31,159--RequestLog--DEBUG--发送post请求
+2023-04-04 09:10:01,963--RequestLog--DEBUG--发送post请求
+2023-04-04 09:10:01,980--RequestLog--DEBUG--发送post请求
+2023-04-04 09:10:01,988--RequestLog--DEBUG--发送post请求
+2023-04-04 09:12:02,183--RequestLog--DEBUG--发送post请求
+2023-04-04 09:12:02,204--RequestLog--DEBUG--发送post请求
+2023-04-04 09:12:02,210--RequestLog--DEBUG--发送post请求
+2023-04-04 09:12:24,142--RequestLog--DEBUG--发送post请求
+2023-04-04 09:12:24,158--RequestLog--DEBUG--发送post请求
+2023-04-04 09:12:24,165--RequestLog--DEBUG--发送post请求
+2023-04-04 09:14:05,013--RequestLog--DEBUG--发送post请求
+2023-04-04 09:14:05,031--RequestLog--DEBUG--发送post请求
+2023-04-04 09:14:05,038--RequestLog--DEBUG--发送post请求
+2023-04-04 09:15:21,264--RequestLog--DEBUG--发送post请求
+2023-04-04 09:15:21,281--RequestLog--DEBUG--发送post请求
+2023-04-04 09:15:21,290--RequestLog--DEBUG--发送post请求
+2023-04-04 09:16:43,470--RequestLog--DEBUG--发送post请求
+2023-04-04 09:16:43,487--RequestLog--DEBUG--发送post请求
+2023-04-04 09:16:43,493--RequestLog--DEBUG--发送post请求
+2023-04-04 09:17:15,455--RequestLog--DEBUG--发送post请求
+2023-04-04 09:17:15,472--RequestLog--DEBUG--发送post请求
+2023-04-04 09:17:15,479--RequestLog--DEBUG--发送post请求
+2023-04-04 09:17:26,775--RequestLog--DEBUG--发送post请求
+2023-04-04 09:17:26,790--RequestLog--DEBUG--发送post请求
+2023-04-04 09:17:26,795--RequestLog--DEBUG--发送post请求
+2023-04-04 09:21:40,813--RequestLog--DEBUG--发送post请求
+2023-04-04 09:21:40,830--RequestLog--DEBUG--发送post请求
+2023-04-04 09:21:40,837--RequestLog--DEBUG--发送post请求
+2023-04-04 09:23:57,129--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 09:24:48,105--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 09:40:57,739--RequestLog--DEBUG--发送post请求
+2023-04-04 09:40:57,793--RequestLog--DEBUG--发送post请求
+2023-04-04 09:40:57,799--RequestLog--DEBUG--发送post请求
+2023-04-04 09:50:52,777--RequestLog--DEBUG--发送post请求
+2023-04-04 09:50:52,797--RequestLog--DEBUG--发送post请求
+2023-04-04 09:50:52,804--RequestLog--DEBUG--发送post请求
+2023-04-04 09:50:52,819--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 09:55:48,039--RequestLog--DEBUG--发送post请求
+2023-04-04 09:55:48,059--RequestLog--DEBUG--发送post请求
+2023-04-04 09:55:48,066--RequestLog--DEBUG--发送post请求
+2023-04-04 09:55:48,081--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 10:00:45,518--RequestLog--DEBUG--发送post请求
+2023-04-04 10:00:45,528--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 200, 'msg': '\u767b\u5f55\u6210\u529f', 'data': {'userid': 9, 'username': 'alan1', 'phone': '13021111161', 'token': 'aaa111'}}", expected_body is: 登录成功
+2023-04-04 10:00:45,728--RequestLog--DEBUG--发送post请求
+2023-04-04 10:00:45,733--RequestLog--DEBUG--发送post请求
+2023-04-04 10:00:45,741--AssertUitl--ERROR--code error,code is: 200, 期望expected_code is: 201
+2023-04-04 10:00:55,093--RequestLog--DEBUG--发送post请求
+2023-04-04 10:00:55,103--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 200, 'msg': '\u767b\u5f55\u6210\u529f', 'data': {'userid': 9, 'username': 'alan1', 'phone': '13021111161', 'token': 'aaa111'}}", expected_body is: 登录成功
+2023-04-04 10:00:55,257--RequestLog--DEBUG--发送post请求
+2023-04-04 10:00:55,262--RequestLog--DEBUG--发送post请求
+2023-04-04 10:00:55,268--AssertUitl--ERROR--code error,code is: 200, 期望expected_code is: 201
+2023-04-04 10:00:55,286--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 10:02:01,727--RequestLog--DEBUG--发送post请求
+2023-04-04 10:02:01,738--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 200, 'msg': '\u767b\u5f55\u6210\u529f', 'data': {'userid': 9, 'username': 'alan1', 'phone': '13021111161', 'token': 'aaa111'}}", expected_body is: 登录成功
+2023-04-04 10:02:01,917--RequestLog--DEBUG--发送post请求
+2023-04-04 10:02:01,923--RequestLog--DEBUG--发送post请求
+2023-04-04 10:02:01,929--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 201, 'msg': '\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef'}", expected_body is: 用户名或密码错误
+2023-04-04 10:03:08,567--RequestLog--DEBUG--发送post请求
+2023-04-04 10:03:08,588--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 200, 'msg': '\u767b\u5f55\u6210\u529f', 'data': {'userid': 9, 'username': 'alan1', 'phone': '13021111161', 'token': 'aaa111'}}", expected_body is: 登录成功
+2023-04-04 10:03:08,735--RequestLog--DEBUG--发送post请求
+2023-04-04 10:03:08,742--RequestLog--DEBUG--发送post请求
+2023-04-04 10:03:08,747--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 201, 'msg': '\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef'}", expected_body is: 用户名或密码错误
+2023-04-04 10:03:08,772--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 10:03:55,997--RequestLog--DEBUG--发送post请求
+2023-04-04 10:03:56,015--RequestLog--DEBUG--发送post请求
+2023-04-04 10:03:56,021--RequestLog--DEBUG--发送post请求
+2023-04-04 10:18:46,750--RequestLog--DEBUG--发送post请求
+2023-04-04 10:18:46,778--RequestLog--DEBUG--发送post请求
+2023-04-04 10:18:46,783--RequestLog--DEBUG--发送post请求
+2023-04-04 10:18:46,795--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 10:18:57,649--RequestLog--DEBUG--发送post请求
+2023-04-04 10:18:57,658--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 200, 'data': {'phone': '13021111161', 'token': 'aaa111', 'userid': 9, 'username': 'alan1'}, 'msg': '\u767b\u5f55\u6210\u529f'}", expected_body is: 登录成功
+2023-04-04 10:18:57,809--RequestLog--DEBUG--发送post请求
+2023-04-04 10:18:57,815--RequestLog--DEBUG--发送post请求
+2023-04-04 10:18:57,821--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 201, 'msg': '\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef'}", expected_body is: 用户名或密码错误
+2023-04-04 10:19:05,338--RequestLog--DEBUG--发送post请求
+2023-04-04 10:19:05,349--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 200, 'data': {'phone': '13021111161', 'token': 'aaa111', 'userid': 9, 'username': 'alan1'}, 'msg': '\u767b\u5f55\u6210\u529f'}", expected_body is: 登录成功
+2023-04-04 10:19:05,499--RequestLog--DEBUG--发送post请求
+2023-04-04 10:19:05,507--RequestLog--DEBUG--发送post请求
+2023-04-04 10:19:05,512--AssertUitl--ERROR--error: expected_body not in body, body is: "{'code': 201, 'msg': '\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef'}", expected_body is: 用户名或密码错误
+2023-04-04 10:19:05,534--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 10:28:18,680--RequestLog--DEBUG--发送post请求
+2023-04-04 10:28:18,700--RequestLog--DEBUG--发送post请求
+2023-04-04 10:28:18,706--RequestLog--DEBUG--发送post请求
+2023-04-04 10:29:12,421--RequestLog--DEBUG--发送post请求
+2023-04-04 10:29:12,438--RequestLog--DEBUG--发送post请求
+2023-04-04 10:29:12,445--RequestLog--DEBUG--发送post请求
+2023-04-04 10:31:49,935--RequestLog--DEBUG--发送post请求
+2023-04-04 10:31:49,955--RequestLog--DEBUG--发送post请求
+2023-04-04 10:31:49,962--RequestLog--DEBUG--发送post请求
+2023-04-04 10:31:49,972--D:\WorkSoftware\PycharmProjects\pytestxuexi\utils\LogUtil.py--INFO--生成html报告
+2023-04-04 10:33:29,048--RequestLog--DEBUG--发送post请求
+2023-04-04 10:33:29,065--RequestLog--DEBUG--发送post请求
+2023-04-04 10:33:29,072--RequestLog--DEBUG--发送post请求
+2023-04-04 10:35:26,496--RequestLog--DEBUG--发送post请求
+2023-04-04 10:35:26,512--RequestLog--DEBUG--发送post请求
+2023-04-04 10:35:26,517--RequestLog--DEBUG--发送post请求
+2023-04-04 10:42:35,795--RequestLog--DEBUG--发送post请求
+2023-04-04 10:42:35,816--RequestLog--DEBUG--发送post请求
+2023-04-04 10:42:35,824--RequestLog--DEBUG--发送post请求
+2023-04-04 10:42:54,784--RequestLog--DEBUG--发送post请求
+2023-04-04 10:42:54,801--RequestLog--DEBUG--发送post请求
+2023-04-04 10:42:54,807--RequestLog--DEBUG--发送post请求
+2023-04-04 10:45:35,188--RequestLog--DEBUG--发送post请求
+2023-04-04 10:45:35,205--RequestLog--DEBUG--发送post请求
+2023-04-04 10:45:35,211--RequestLog--DEBUG--发送post请求
+2023-04-04 10:53:45,292--RequestLog--DEBUG--发送post请求
+2023-04-04 10:53:45,303--AssertUitl--ERROR--status_code校验通过
+2023-04-04 10:53:45,304--AssertUitl--ERROR--in body verification passed
+2023-04-04 10:53:45,311--RequestLog--DEBUG--发送post请求
+2023-04-04 10:53:45,318--RequestLog--DEBUG--发送post请求
+2023-04-04 10:53:45,324--AssertUitl--ERROR--status_code校验通过
+2023-04-04 10:53:45,324--AssertUitl--ERROR--in body verification passed
+2023-04-04 10:54:37,176--RequestLog--DEBUG--发送post请求
+2023-04-04 10:54:37,188--AssertUitl--ERROR--status_code verification passed
+2023-04-04 10:54:37,188--AssertUitl--ERROR--in body verification passed
+2023-04-04 10:54:37,194--RequestLog--DEBUG--发送post请求
+2023-04-04 10:54:37,201--RequestLog--DEBUG--发送post请求
+2023-04-04 10:54:37,207--AssertUitl--ERROR--status_code verification passed
+2023-04-04 10:54:37,207--AssertUitl--ERROR--in body verification passed

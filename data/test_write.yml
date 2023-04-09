@@ -3,30 +3,27 @@
 #url地址
 #data
 #期望结果
-"case_name": "添加文章用例1"
-"url": "http://jsonplaceholder.typicode.com/posts"
+"case_name": "alan1登录"
+"url": "http://127.0.0.1:5000/login"
 "data":
-  "userId": 1
-  "title": "title1"
-  "body": "this is a writer 1"
+  "username": "alan1"
+  "password": "111111"
 "expect": "this is a writer 1"
 
 ---
 
-"case_name": "添加文章用例2"
-"url": "http://jsonplaceholder.typicode.com/posts"
+"case_name": "alan2登录"
+"url": "http://127.0.0.1:5000/login"
 "data":
-  "userId": 2
-  "title": "title2"
-  "body": "this is a writer 2"
-"expect": "this is a writer 2"
+  "username": "alan2"
+  "password": "222222"
+"expect": "this is a writer 1"
 
 ---
 
-"case_name": "添加文章用例3"
-"url": "http://jsonplaceholder.typicode.com/posts"
+"case_name": "alan3登录"
+"url": "http://127.0.0.1:5000/login"
 "data":
-  "userId": 3
-  "title": "title3"
-  "body": "this is a writer 3"
-"expect": "this is a writer 3"
+  "username": "alan3"
+  "password": "333333"
+"expect": "this is a writer 1"

@@ -34,7 +34,7 @@ class CaseExcelRunData:
         case_all_list = self.get_excel_all_data()
         for line in case_all_list:
             if precondition in dict(line).values():
-                print("前置条件中的用例id存在，返回前置用例信息：%s"%line)
+                print("存在前置用例：%s"%line['用例ID'])
                 return line
         return None
 
@@ -44,9 +44,10 @@ class CaseExcelRunData:
         for line in self.reader_excel_all.data():
             if str(line[ExcelColumnConfig.case_is_run]).lower() == 'y':
                 run_list.append(line)
-        print("存在运行的用例，所有的运行用例结果列表：%s"%run_list)
+        print("需要执行的用例：%s"%run_list)
         return run_list
 
-
+#
 # if __name__ == '__main__':
 #     reader_excel_all = CaseExcelRunData("../data/api.xlsx","Sheet1")
+#     reader_excel_all.get_excel_run_data()

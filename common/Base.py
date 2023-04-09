@@ -6,10 +6,18 @@
 @desc: 
 """
 import json
+import logging
+import os
 import re
+import subprocess
 
+from config import Conf
 from config.Conf import ConfigYaml
+from utils.LogUtil import my_log
 from utils.MysqlUtil import Dbmysql
+from utils.AssertUtil import AssertUtil
+
+log = my_log()
 
 # 初始化数据库信息，配置文件conf_db.yml
 def init_db(db_name):
@@ -78,5 +86,33 @@ def params_find_pattern(headers,cookies):
     return headers, cookies
 
 
+def assert_db_verify(db_name, case_result, case_db_verify):
+    assert_util = AssertUtil()
+    sql = init_db(db_name)
+    db_res = sql.fetchone(case_db_verify)
+    log.debug("数据库查询结果：{}".format(str(db_res)))
+    verify_list = list(dict(db_res).keys())
+    for line in verify_list:
+        res_line = case_result[line]
+        res_db_line = dict(db_res)[line]
+        assert_util.assert_body(res_line,res_db_line)
+
 # print(reslut_re_find('{"Token":"${token}$"}'))
 # print(reslut_re_replace('{"Token":"${token}$"}','abc123'))
+
+def allure_report_html(report_result_path, report_html_path):
+    allure_cmd = "allure generate {} -o {} --clean".format(report_result_path, report_html_path)
+    log.info("生成html报告")
+    try:
+        subprocess.call(allure_cmd, shell=True)
+    except:
+        log.error("执行用例失败")
+        raise
+
+# report_result_path = Conf.get_report_path() + os.sep + "result"
+# report_html_path = Conf.get_report_path() + os.sep + "html"
+#
+# allure_report_subprocess(report_result_path, report_html_path)
+
+
+

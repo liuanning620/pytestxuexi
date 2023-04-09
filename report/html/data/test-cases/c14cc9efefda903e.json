@@ -1,0 +1,109 @@
+{
+  "uid" : "c14cc9efefda903e",
+  "name" : "用例id:id-002;用例名称:登录alan2;",
+  "fullName" : "testcase.test_excel_case.TestExcelCase#test_case_run",
+  "historyId" : "a5e9368e2d00799f284043c9d52f3924",
+  "time" : {
+    "start" : 1680575509950,
+    "stop" : 1680575509967,
+    "duration" : 17
+  },
+  "description" : "请求方法:post; 请求url:http://127.0.0.1:5000/login; 预期结果：用户名或密码错误;",
+  "descriptionHtml" : "<p>请求方法:post; 请求url:http://127.0.0.1:5000/login; 预期结果：用户名或密码错误;</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "请求方法:post; 请求url:http://127.0.0.1:5000/login; 预期结果：用户名或密码错误;",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b89e3b75fe2a33bd",
+      "name" : "log",
+      "source" : "b89e3b75fe2a33bd.txt",
+      "type" : "text/plain",
+      "size" : 111
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Sheet1"
+  }, {
+    "name" : "story",
+    "value" : "lan"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_excel_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExcelCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RGVFMBO"
+  }, {
+    "name" : "thread",
+    "value" : "23128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_excel_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'id-002', '模块': 'lan', '接口名称': '登录alan2', 'url': '/login', '前置条件': 'id-001', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"alan2\",\"password\": \"2222222\"}', '预期结果': '用户名或密码错误', '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 201.0, '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "45f99dcdc5984062",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1680574745494,
+        "stop" : 1680574745512,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "5d25f3be0774e972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680574726773,
+        "stop" : 1680574726789,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "f628a9fea2939d01",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1680573788730,
+        "stop" : 1680573788747,
+        "duration" : 17
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c14cc9efefda903e.json",
+  "parameterValues" : [ "{'用例ID': 'id-002', '模块': 'lan', '接口名称': '登录alan2', 'url': '/login', '前置条件': 'id-001', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"username\": \"alan2\",\"password\": \"2222222\"}', '预期结果': '用户名或密码错误', '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 201.0, '数据库验证': ''}" ]
+}

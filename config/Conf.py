@@ -21,7 +21,8 @@ _config_yaml_file = _config_path + os.sep + "conf.yml"
 _log_path = BASE_DIR + os.sep + "logs"
 # 定义db_conf.yml路径
 _db_yaml_file = _config_path + os.sep + "conf_db.yml"
-
+# 定义输出report文件目录的路径
+_report_path = BASE_DIR + os.sep + "report"
 
 # 获取配置文件路径
 def get_config_path():
@@ -47,6 +48,10 @@ def get_data_path():
 def get_db_file():
     return _db_yaml_file
 
+
+# 获取report绝对路径
+def get_report_path():
+    return _report_path
 
 # 读取配置文件
 # 1.创建类
